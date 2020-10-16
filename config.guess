@@ -879,7 +879,7 @@ EOF
 	echo "$UNAME_MACHINE"-pc-mingw32
 	exit ;;
     *:MSYS*:*)
-	echo "$UNAME_MACHINE"-pc-msys
+	echo "$UNAME_MACHINE"-pc-mingw32
 	exit ;;
     i*:PW*:*)
 	echo "$UNAME_MACHINE"-pc-pw32
